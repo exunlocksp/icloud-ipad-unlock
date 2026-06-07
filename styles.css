@@ -557,6 +557,28 @@ a:hover {
   display: inline-flex;
 }
 
+.step-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 8px;
+}
+
+.step-note span {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.step-note p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
 /* Pricing Tabs */
 .price-tabs {
   display: flex;
